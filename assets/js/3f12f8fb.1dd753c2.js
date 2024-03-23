@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocu_temp=self.webpackChunkdocu_temp||[]).push([[263],{4242:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/metro-evolved/blog/tags/hola","allTagsPath":"/metro-evolved/blog/tags","count":1,"unlisted":false}')}}]);
