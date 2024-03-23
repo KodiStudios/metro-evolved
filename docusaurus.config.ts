@@ -4,7 +4,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Nikolai Site",
-  tagline: "Sakura 🌸 in Kirkland is Beautiful",
+  tagline: "Sakura 🌸🌸 in Kirkland is Beautiful",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
