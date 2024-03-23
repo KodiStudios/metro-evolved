@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocu_temp=self.webpackChunkdocu_temp||[]).push([[5855],{5771:e=>{e.exports=JSON.parse('{"permalink":"/metro-evolved/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
