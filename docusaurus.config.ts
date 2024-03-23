@@ -60,12 +60,17 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
+
+    // Location: Top
     navbar: {
-      title: "My Site",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
+
+      // Location: Top Left
+      title: "Metro Evolved",
+
       items: [
         {
           type: "docSidebar",
