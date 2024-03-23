@@ -9,6 +9,7 @@ authors:
 tags: [hola, docusaurus]
 ---
 
+<img src="https://onedrive.live.com/embed?resid=CB3DEB5FC699256B%2155669&authkey=%21AGGirt00goUQU-c" width="400" />
 <img src="https://onedrive.live.com/embed?resid=CB3DEB5FC699256B%2148268&authkey=%21AMaxdgxca0Vuyn4" width="400" />
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
