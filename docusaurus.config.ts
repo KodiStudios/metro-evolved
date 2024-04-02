@@ -3,8 +3,8 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "Nikolai Site",
-  tagline: "Sakura 🌸🌸 in Kirkland is Beautiful",
+  title: "Metro Evolved",
+  tagline: "Power of AI at your fingertips",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -41,7 +41,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            "https://github.com/KodiStudios/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -61,60 +61,69 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
 
-    // Location: Top
+    // Top
     navbar: {
+      // Top-Left
       logo: {
-        alt: "My Site Logo",
         src: "img/logo.svg",
+        alt: "Metro Evolved Site Logo",
       },
 
-      // Location: Top Left
+      // Top-Left
       title: "Metro Evolved",
 
       items: [
+        // Top-Left Links
+        // Wiki
         {
+          label: "Wiki",
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
-          label: "Tutorial",
         },
+        // Blog
         { to: "/blog", label: "Blog", position: "left" },
+
+        // Top-Right Link
         {
-          href: "https://github.com/facebook/docusaurus",
           label: "GitHub",
+          href: "https://github.com/KodiStudios/metro-evolved",
           position: "right",
         },
       ],
     },
+
+    // Bottom
     footer: {
       style: "dark",
       links: [
+        // Bottom Left
         {
-          title: "Docs",
+          title: "Evolve",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "Wiki",
+              to: "/docs/category/docusaurus",
             },
           ],
         },
+
+        // Bottom Middle
         {
-          title: "Community",
+          title: "Connect",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "Instagram",
+              href: "https://instagram.com/nikoaristov",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
-            },
-            {
-              label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              label: "X",
+              href: "https://twitter.com/kodistudios",
             },
           ],
         },
+
+        // Bottom Right
         {
           title: "More",
           items: [
@@ -124,12 +133,14 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/KodiStudios/metro-evolved",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+
+      // Bottom Bottom
+      copyright: `Copyright © ${new Date().getFullYear()} Kodi Studios, Llc. Built with Docusaurus 🦖.`,
     },
     prism: {
       theme: prismThemes.github,

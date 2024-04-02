@@ -33,7 +33,7 @@ Next, let's create GitHub Pages that will generate a website based on contents o
 
 ## Create GitHub Pages
 
-In GitHub, navigate to:
+In GitHub, navigate to:  
 Settings > Pages  
 Source: **Deploy from a Branch**  
 Branch: **gh-pages**  
