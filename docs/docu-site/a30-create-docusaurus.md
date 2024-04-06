@@ -37,7 +37,12 @@ Copy Contents from Docusaurus directory into GitHub directory with Windows Explo
 
 `/s` means recursive
 
-Verify your local docusaurus site in GitHub Repo directory by running:
+Compile and create Lock file:
+`yarn install`
+
+Now, there should be a new file called `yarn.lock`. This file is required by Docusaurus compiler.
+
+Verify correctness of your local Docusaurus site in GitHub Repo directory by running:
 
 ```Cmd
 cd your-cool-site
@@ -49,21 +54,22 @@ This will start sample Server, and you should see a basic Docusaurus site is run
 After verification, stop your Server by pressing:  
 `Ctrl + C`
 
-## Add Deployment from main Branch to gh-pages Branch
+## Add GitHub Workflow from `main` Branch to `gh-pages` Branch
 
-Deployment allows a workflow where upon a commit in `main`, there will be a Deployment Action which will compile from `main` Branch and submit it into `gh-pages` Branch.
+This new Workflow allows scenario where upon a commit in `main` Branch, there will be a Workflow Action which will compile from `main` Branch and submit it into `gh-pages` Branch.
 
 Create new file:  
 `.github/workflows/deploy.yml`
 
 Add into that file contents from:  
-https://docusaurus.io/docs/deployment
+https://docusaurus.io/docs/deployment#deploying-to-github-pages
+On that page search for: `.github/workflows/deploy.yml`
 
-Modify following in `docusaurus.config.ts` file:  
-url  
-baseUrl  
-organizationName  
-projectName
+Finally, in `docusaurus.config.ts` file modify following:  
+url: https://your-cool-site.github.io
+baseUrl: /your-cool-site/
+organizationName: GitHubUserName
+projectName: your-cool-site
 
 Commit and Push.
 
