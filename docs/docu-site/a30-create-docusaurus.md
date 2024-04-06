@@ -66,7 +66,7 @@ https://docusaurus.io/docs/deployment#deploying-to-github-pages
 On that page search for: `.github/workflows/deploy.yml`
 
 Finally, in `docusaurus.config.ts` file modify following:  
-url: https://your-cool-site.github.io
+url: https://GitHubUserName.github.io
 baseUrl: /your-cool-site/
 organizationName: GitHubUserName
 projectName: your-cool-site
@@ -75,6 +75,11 @@ Commit and Push.
 
 On GitHub.com, now there should be new Action called `Deploy to GitHub Pages`.
 
-1. User commits to `main` Branch
+Here's end-to-end workflow:
+
+1. User Commits to `main` Branch
 1. `Deploy to GitHub Pages` Action compiles from `main` Branch to `gh-pages` Branch
 1. `pages-build-deployment` Action compiles from `gh-pages` Branch into actual site.
+
+Now, verify that your website is visible at:  
+`https://GitHubUserName.github.io/your-cool-site`
