@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocu_temp=self.webpackChunkdocu_temp||[]).push([[680],{6798:e=>{e.exports=JSON.parse('{"title":"Docusaurus","description":"Docusaurus with GitHub Hosting.","slug":"/category/docusaurus","permalink":"/docs/category/docusaurus","navigation":{"next":{"title":"High Level Docusaurus Website Overview","permalink":"/docs/docu-site/a1-overview"}}}')}}]);
