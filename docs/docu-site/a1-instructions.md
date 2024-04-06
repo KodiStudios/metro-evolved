@@ -1,4 +1,4 @@
-# Docusaurus Instructions
+# High Level Docusaurus Website Overview
 
 From high level view, Docusaurus Website on GitHub pages consists of the following:  
 
@@ -11,7 +11,7 @@ From high level view, Docusaurus Website on GitHub pages consists of the followi
    At this point you will already have a fully fledged Free Docusaurus website at:  
    `https://yourusername.github.io/your-project`
 
-Then, final Optional Non-Free step is to connect GitHub Pages site to Domain Controller
+Then, final, Optional, but Non-Free step is to connect GitHub Pages site to Domain Name  
 
 1. (Optional) Connecting GitHub Pages to Domain Controller  
    This will allow access to your website from your purchased Url:  

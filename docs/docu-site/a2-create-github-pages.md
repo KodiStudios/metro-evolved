@@ -9,9 +9,9 @@ Repository template: **No template**
 Owner: **YourUserName**  
 Repository name: **your-cool-site**  
 Visibility: **Public**  
-(Public option is required for your GitHub Pages Site to work)
+(Public option is required for your GitHub Pages Site to work)  
 Select: **Add README file**  
-(This is useful because you will be able to later quicker create Branches, and thus quicker see your new website)  
+(This is useful because you will be able to later quicker create new Branches, and thus quicker see your new website)  
 .gitignore template: **None**  
 Choose a license: **MIT**  
 (You can switch it as you like)
@@ -23,7 +23,7 @@ Next, let's convert that Repository into a GitHub Pages Website.
 ## Create New Branch
 
 On GitHub, create new Branch called:  
-**gh-pages**.
+**gh-pages**
 
 This Branch will be used as source for Publishing of WebSite.
 
