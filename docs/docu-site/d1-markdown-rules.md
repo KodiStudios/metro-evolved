@@ -1,9 +1,13 @@
-# Docusaurus Markdown Rules
+---
+title: Markdown Quirks
+---
+
+# Docusaurus Markdown Quirks
 
 ## Urls
 
-Do NOT wrap < > around Urls!
-Use just plain:  
+Do NOT wrap with brackets `<` `>` around Urls!
+Use just plain url text:  
 
 ```Txt
 https://metroevolved.com
