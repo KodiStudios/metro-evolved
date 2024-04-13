@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocu_temp=self.webpackChunkdocu_temp||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Seattle Downtown View from Amazon Spheres","permalink":"/blog/amazon-spheres","unlisted":false}]}')}}]);
