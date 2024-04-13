@@ -1,4 +1,8 @@
-# Using Go Daddy
+---
+title: Configure Custom Url
+---
+
+# Configure Custom Url Using Go Daddy
 
 ## Go Daddy DNS Settings
 
@@ -25,10 +29,10 @@ projectName:
 
 ## Add CName file
 
-Create new file:
+Create new file:  
 `static/CNAME`
 
-In it, add your url:
+In it, add your url:  
 `yoururl.com`
 
 Note: http prefix isn't needed.

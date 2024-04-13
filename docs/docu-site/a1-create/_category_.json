@@ -1,0 +1,8 @@
+{
+  "label": "Create Site",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Create Docusaurus site with Free GitHub Hosting."
+  }
+}

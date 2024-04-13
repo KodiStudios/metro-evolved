@@ -9,3 +9,8 @@ https://git-scm.com/
 
 Download and install NodeJs from:  
 https://nodejs.org
+
+## Visual Studio Code
+
+Download and install VsCode from:  
+https://code.visualstudio.com/Download

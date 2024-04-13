@@ -1,4 +1,8 @@
-# Create Docusaurus
+---
+title: Add Docusaurus
+---
+
+# Add Docusaurus into GitHub Pages Site
 
 ## Create New Docusaurus Folder
 
