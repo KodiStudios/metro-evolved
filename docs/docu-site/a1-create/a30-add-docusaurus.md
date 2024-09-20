@@ -66,14 +66,17 @@ Create new file:
 `.github/workflows/deploy.yml`
 
 Add into that file contents from:  
-https://docusaurus.io/docs/deployment#deploying-to-github-pages
-On that page search for: `.github/workflows/deploy.yml`
+https://docusaurus.io/docs/deployment#deploying-to-github-pages  
+On that page, search for: `GitHub action file`
+And then, search for: `.github/workflows/deploy.yml`
 
 Finally, in `docusaurus.config.ts` file modify following:  
+```txt
 url: https://GitHubUserName.github.io
 baseUrl: /your-cool-site/
 organizationName: GitHubUserName
 projectName: your-cool-site
+```
 
 Commit and Push.
 
