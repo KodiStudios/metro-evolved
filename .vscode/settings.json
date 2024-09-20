@@ -1,8 +1,8 @@
 {
-    "cSpell.words": [
-        "Aristov",
-        "Sakura",
-        "xcopy",
-        "yoururl"
-    ]
+  // Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Spelling
+  "cSpell.allowCompoundWords": true,
+  "cSpell.words": ["Aristov", "Kodi", "Sakura", "xcopy", "yoururl"]
 }
