@@ -67,7 +67,7 @@ Create new file:
 
 Add into that file contents from:  
 https://docusaurus.io/docs/deployment#deploying-to-github-pages  
-On that page, search for: `GitHub action file`
+On that page, search for: `GitHub action file`  
 And then, search for: `.github/workflows/deploy.yml`
 
 Finally, in `docusaurus.config.ts` file modify following:  
