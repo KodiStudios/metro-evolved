@@ -3,8 +3,6 @@ name: Compile main Branch and Push to gh-pages Branch
 # Whenever Commit happens on `main` Branch
 # It will Compile and place results onto `gh-pages` Branch
 on:
-  pull_request:
-    branches: [main]
   push:
     branches: [main]
     # Review gh actions docs if you want to further define triggers, paths, etc
