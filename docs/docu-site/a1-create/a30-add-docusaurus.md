@@ -25,7 +25,7 @@ After verification, stop your Server by pressing:
 
 ## Clone Your Repo from GitHub
 
-On local machine, exit your Docusaurus directory, and Clone your GitHub project:  
+On local machine, exit your Docusaurus directory, and Clone your GitHub project:
 
 ```Cmd
 cd ..
@@ -68,9 +68,10 @@ Create new file:
 Add into that file contents from:  
 https://docusaurus.io/docs/deployment#deploying-to-github-pages  
 On that page, search for: `GitHub action file`  
-And then, search for: `.github/workflows/deploy.yml`
+Expand, and then look for: `.github/workflows/deploy.yml`
 
-Finally, in `docusaurus.config.ts` file modify following:  
+Finally, in `docusaurus.config.ts` file modify following:
+
 ```txt
 url: https://GitHubUserName.github.io
 baseUrl: /your-cool-site/
