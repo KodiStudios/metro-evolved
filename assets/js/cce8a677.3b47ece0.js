@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocu_temp=self.webpackChunkdocu_temp||[]).push([[3133],{8053:e=>{e.exports=JSON.parse('{"label":"downtown","permalink":"/blog/tags/downtown","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);

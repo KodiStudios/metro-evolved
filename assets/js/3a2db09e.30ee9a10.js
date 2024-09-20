@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmetro_evolved=self.webpackChunkmetro_evolved||[]).push([[8121],{8070:e=>{e.exports=JSON.parse('{"tags":[{"label":"amazon","permalink":"/blog/tags/amazon","count":1},{"label":"downtown","permalink":"/blog/tags/downtown","count":1},{"label":"seattle","permalink":"/blog/tags/seattle","count":1}]}')}}]);
