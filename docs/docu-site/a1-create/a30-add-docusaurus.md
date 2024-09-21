@@ -29,8 +29,10 @@ On local machine, create new Docusaurus project directory `docu-origin`:
 This will create a new directory called `docu-origin`. So now you have 2 directories next to each other `your-cool-site` and `docu-origin`.
 
 Verify your local Docusaurus site by running:
+Verify your local Docusaurus site by running:
 
 ```Cmd
+cd docu-origin
 cd docu-origin
 npm start
 ```
@@ -42,6 +44,8 @@ After verification, stop your Server by pressing:
 
 ## Copy Contents from Docusaurus directory into GitHub directory
 
+Copy Contents from Docusaurus directory into your project Git directory with Windows Explorer, or with simple cmd command:  
+`xcopy /s docu-origin your-cool-site`
 Copy Contents from Docusaurus directory into your project Git directory with Windows Explorer, or with simple cmd command:  
 `xcopy /s docu-origin your-cool-site`
 
@@ -61,20 +65,43 @@ Delete `node-modules` folder.
 Delete `package-lock.json` Npm Lock file.
 
 Create new Yarn Lock file:
+## Switch from Npm to Yarn
+
+Yarn is required by Docusaurus compiler and by GitHub Actions in future steps.
+
+Navigate into your site directory:  
+`cd your-cool-site`
+
+Install `yarn` globally:  
+`npm install -g yarn`
+
+Delete `node-modules` folder.  
+Delete `package-lock.json` Npm Lock file.
+
+Create new Yarn Lock file:
 `yarn install`
 
 Now, there should be a new file called `yarn.lock`.
+Now, there should be a new file called `yarn.lock`.
 
+Verify correctness of your local Docusaurus site, in `your-cool-site` directory:
 Verify correctness of your local Docusaurus site, in `your-cool-site` directory:
 
 ```Cmd
 yarn start
+yarn start
 ```
 
+This will start sample Server, and you should see a basic Docusaurus site is running in your browser, just like in previous section, only now using Yarn instead of Npm.
 This will start sample Server, and you should see a basic Docusaurus site is running in your browser, just like in previous section, only now using Yarn instead of Npm.
 
 After verification, stop your Server by pressing:  
 `Ctrl + C`
+
+## Verify Building Your site with Docusaurus Compiler
+
+Now you should be able to Compile your side with Yarn:  
+`yarn build`
 
 ## Verify Building Your site with Docusaurus Compiler
 
@@ -107,6 +134,8 @@ On GitHub.com, now there should be new Action called `Deploy to GitHub Pages`.
 Here's end-to-end workflow:
 
 1. User Commits to `main` Branch
+1. `Deploy to GitHub Pages` Action compiles using Docusaurus Compiler from `main` Branch to `gh-pages` Branch
+1. `pages-build-deployment` Action compiles using GH Pages Compiler from `gh-pages` Branch into actual site.
 1. `Deploy to GitHub Pages` Action compiles using Docusaurus Compiler from `main` Branch to `gh-pages` Branch
 1. `pages-build-deployment` Action compiles using GH Pages Compiler from `gh-pages` Branch into actual site.
 
