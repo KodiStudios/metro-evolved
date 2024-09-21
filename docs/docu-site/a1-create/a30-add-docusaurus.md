@@ -8,7 +8,7 @@ title: Add Docusaurus
 
 The easiest way to add Docusaurus into your Git project is to first create a separate Docusaurus project folder from scratch. Then copy that Docusaurus project folder into your Git project. In next steps, let's do just that!
 
-## Create New Docusaurus Folder
+## Git Clone your Project
 
 Let's say that in previous steps, on GitHub you have a project `your-cool-site`.
 
@@ -19,12 +19,14 @@ git clone https://github.com/yourusername/your-cool-site.git
 
 Now you have a directory `your-cool-site` locally.
 
-Let's leave that directory as is, and create completely separate new directory for Docusaurus `docu-origin`. This new `docu-origin` folder will be sibling of `your-cool-site` folder.
+ ## Create New Docusaurus Folder
+
+Let's leave `your-cool-site` directory as is, and create completely separate new directory for Docusaurus `docu-origin`. This new `docu-origin` folder will be sibling of `your-cool-site` folder.
 
 On local machine, create new Docusaurus project directory `docu-origin`:  
 `npx create-docusaurus@latest docu-origin classic --typescript`
 
-This will create a new directory called `docu-origin`. So you have 2 directories next to each other `your-cool-site` and `docu-origin`.
+This will create a new directory called `docu-origin`. So now you have 2 directories next to each other `your-cool-site` and `docu-origin`.
 
 Verify your local Docusaurus site by running:
 
@@ -87,9 +89,7 @@ Create new file:
 `.github/workflows/deploy.yml`
 
 Add into that file contents from:  
-https://docusaurus.io/docs/deployment#deploying-to-github-pages  
-On that page, search for: `GitHub action file`  
-Expand, and then look for: `.github/workflows/deploy.yml`
+https://github.com/KodiStudios/metro-evolved/blob/main/.github/workflows/deploy.yml
 
 Finally, in `docusaurus.config.ts` file modify following:
 
@@ -112,3 +112,10 @@ Here's end-to-end workflow:
 
 Now, verify that your website is visible at:  
 `https://GitHubUserName.github.io/your-cool-site`
+
+## References
+
+For original documentation on GitHub Actions, please consult:  
+https://docusaurus.io/docs/deployment#deploying-to-github-pages  
+On that page, search for: `GitHub action file`  
+Expand, and then look for: `.github/workflows/deploy.yml`
