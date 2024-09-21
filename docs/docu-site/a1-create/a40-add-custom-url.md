@@ -29,6 +29,8 @@ projectName:
 
 ## Add CName file
 
+This CName file is needed, otherwise GitHub will revert your site back to its default .io url.
+
 Create new file:  
 `static/CNAME`
 
@@ -36,5 +38,3 @@ In it, add your url:
 `yoururl.com`
 
 Note: http prefix isn't needed.
-
-This file is needed, otherwise GitHub will revert your site back to its default .io url.
