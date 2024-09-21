@@ -82,7 +82,6 @@ Verify correctness of your local Docusaurus site, in `your-cool-site` directory:
 
 ```Cmd
 yarn start
-yarn start
 ```
 
 This will start sample Server, and you should see a basic Docusaurus site is running in your browser, just like in previous section, only now using Yarn instead of Npm.
