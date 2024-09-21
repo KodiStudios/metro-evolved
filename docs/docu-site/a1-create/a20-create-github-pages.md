@@ -11,7 +11,7 @@ Repository name: **your-cool-site**
 Visibility: **Public**  
 (Public option is required for your GitHub Pages Site to work)  
 Select: **Add README file**  
-(This is useful because you will be able to later quicker create new Branches, and thus quicker see your new website)  
+(This is needed because Git requires to have at least one file with content to create new Branches. And new Branches will be needed to view your new website)  
 .gitignore template: **None**  
 Choose a license: **MIT**  
 (You can switch it as you like)
@@ -37,18 +37,20 @@ In GitHub, navigate to:
 Settings > Pages  
 Source: **Deploy from a Branch**  
 Branch: **gh-pages**  
-Location: **/ (root)**  
-Custom domain: leave empty for now
+Branch Location: **/ (root)**  
+Custom domain: leave empty for now  
 Select: **Enforce HTTPS**  
-(All modern browsers require Https protocol, not Http)
+(All modern browsers require `Https` protocol, not `Http`)
+
+In GitHub, there is no Apply Settings button, settings should be active as soon as they are changed.
 
 Now, let's confirm your GitHub Pages settings correctness.  
 
-Navigate to Actions. It should have a new Workflow called `pages-build-deployment`. That Workflow was created by GitHub Pages settings.
+Navigate to `Actions`. It should now have a new Workflow called `pages-build-deployment`. That Workflow was created by GitHub Pages settings.
 
 Upon successful Run of that Workflow, you should now be able to see your website at:  
 `https://yourusername.github.io/your-cool-site`
 
-Note that website is grabbing contents of existing `README` file in `gh-pages` Branch!
+Note that website is grabbing contents of existing `README.md` file in `gh-pages` Branch!
 
 Now that you have GitHub Pages site running, let's add Docusaurus framework into the mix!
