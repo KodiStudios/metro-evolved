@@ -6,9 +6,15 @@ title: Markdown Quirks
 
 ## Urls
 
-Do NOT wrap with brackets `<` `>` around Urls!
-Use just plain url text:  
+Do NOT wrap Urls with brackets `<` `>`!
+Use just plain url text.
 
+Correct:
 ```Txt
 https://metroevolved.com
+```
+
+Incorrect:
+```Txt
+<https://metroevolved.com>
 ```
