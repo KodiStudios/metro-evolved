@@ -16,7 +16,7 @@ Thus, recommendation is to use Windows Terminal App.
 
 Install from Windows Terminal App from Windows Store:
 
-<img src="https://1drv.ms/i/s!AmslmcZf6z3Lg98-IHg6iib_9ykDOw?embed=1&width=981&height=740" width="981" height="740" />
+<img src="https://1drv.ms/i/s!AmslmcZf6z3Lg98-IHg6iib_9ykDOw?embed=1&width=981&height=740#/Pictures/metro-evolved-pictures/TerminalMsStore.png" width="981" height="740" />
 
 ## Configure Windows Terminal App
 
