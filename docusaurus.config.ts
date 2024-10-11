@@ -36,19 +36,22 @@ const config: Config = {
     [
       "classic",
       {
+        // Wiki
         docs: {
           sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/KodiStudios/metro-evolved/blob/main/",
+
+          // Adds "Edit This Page" links
+          editUrl: "https://github.com/KodiStudios/metro-evolved/tree/main",
         },
+
+        // Blog
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+
+          // Adds "Edit This Page" links
+          editUrl: "https://github.com/KodiStudios/metro-evolved/tree/main",
         },
+
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -75,11 +78,19 @@ const config: Config = {
         // Top-Left Links
         // Wiki
         {
-          label: "Wiki",
+          label: "Empower",
           type: "docSidebar",
           sidebarId: "tutorialSidebar",
           position: "left",
         },
+
+        {
+          label: "Collection",
+          type: "docSidebar",
+          sidebarId: "tutorialSidebar",
+          position: "left",
+        },
+
         // Blog
         { to: "/blog", label: "Blog", position: "left" },
 
@@ -101,8 +112,12 @@ const config: Config = {
           title: "Evolve",
           items: [
             {
-              label: "Wiki",
+              label: "Empower",
               to: "/docs/category/docusaurus",
+            },
+            {
+              label: "Collections",
+              to: "/collections/category/docusaurus",
             },
           ],
         },
