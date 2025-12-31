@@ -4,14 +4,14 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Metro Evolved",
-  tagline: "Power of AI at your fingertips",
+  tagline: "AI Solutions at your fingertips",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
   url: "https://metroevolved.com",
 
   // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  // For GitHub Pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
 
   trailingSlash: false,
