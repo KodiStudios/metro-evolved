@@ -1,0 +1,1 @@
+"use strict";(globalThis.webpackChunkmetro_evolved=globalThis.webpackChunkmetro_evolved||[]).push([[7472],{5513(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Seattle Downtown View from Amazon Spheres","permalink":"/blog/amazon-spheres","unlisted":false,"date":"2024-04-01T00:00:00.000Z"}]}')}}]);
