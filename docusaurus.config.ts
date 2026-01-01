@@ -117,7 +117,7 @@ const config: Config = {
             },
             {
               label: "Collections",
-              to: "/collections/category/docusaurus",
+              to: "/docs/category/windows-terminal-app",
             },
           ],
         },
