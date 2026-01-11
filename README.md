@@ -1,57 +1,44 @@
-# Website
+# Metro Evolved
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+A tech blog built with [Docusaurus](https://docusaurus.io/). Live at [metroevolved.com](https://metroevolved.com).
 
-## Setup
+## Setup (One-Time)
 
-```
-npm install -g yarn
-```
+1. Install **Node.js** Version 24 or higher:  
+   <https://nodejs.org/>
+2. Enable Corepack:
+   ```
+   corepack enable
+   ```
 
-### Installation
-
-```
-$ yarn install
-```
-
-### Local Development
+## Install
 
 ```
-$ yarn start
+yarn install
 ```
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
+## Development
 
 ```
-$ yarn build
+yarn start
 ```
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Starts a local dev server with hot reload.
 
-### Deployment
-
-Using SSH:
+## Build
 
 ```
-$ USE_SSH=true yarn deploy
+yarn build
 ```
 
-Not using SSH:
+Generates static files in the `build` directory.
+
+## Deployment
+
+Commits to `main` branch automatically deploy to GitHub Pages.
+
+## Update Dependencies
 
 ```
-$ GIT_USER=<Your GitHub username> yarn deploy
+yarn up @docusaurus/core@latest @docusaurus/preset-classic@latest
 ```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
-## Update Docusaurus Packages
-
-This will update package versions in package.json > dependencies and package.json devDependencies.
-
-`yarn upgrade @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/tsconfig@latest @docusaurus/types@latest`
-
-## Update Yarn
-
-`npm install --global yarn`
