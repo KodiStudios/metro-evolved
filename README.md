@@ -40,5 +40,11 @@ Commits to `main` branch automatically deploy to GitHub Pages.
 ## Update Dependencies
 
 ```
-yarn up @docusaurus/core@latest @docusaurus/preset-classic@latest
+yarn up @docusaurus/core@latest @docusaurus/preset-classic@latest @docusaurus/module-type-aliases@latest @docusaurus/tsconfig@latest @docusaurus/types@latest
+```
+
+## Clean Project
+
+```
+git clean -xdf
 ```

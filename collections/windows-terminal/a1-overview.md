@@ -23,6 +23,6 @@ Install from Windows Terminal App from Windows Store:
 Once installed, enable Windows Terminal as default app instead of Command Prompt.
 
 1. Launch Windows Terminal App
-1. Press `Ctrl + ,`
+1. Press `Ctrl + ,`  
    This will bring Settings Dialog
 1. Select Default terminal application as `Windows Terminal`
