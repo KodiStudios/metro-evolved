@@ -1,6 +1,9 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import MountainSvg from "@site/static/img/undraw_docusaurus_mountain.svg";
+import TreeSvg from "@site/static/img/undraw_docusaurus_tree.svg";
+import ReactSvg from "@site/static/img/undraw_docusaurus_react.svg";
 
 type FeatureItem = {
   title: string;
@@ -11,7 +14,7 @@ type FeatureItem = {
 const FeatureList: FeatureItem[] = [
   {
     title: "Easy to Use AI",
-    Svg: require("@site/static/img/undraw_docusaurus_mountain.svg").default,
+    Svg: MountainSvg,
     description: (
       <>
         Using generative AI for fun and profit, from creating original artwork
@@ -21,7 +24,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Focus on What Matters",
-    Svg: require("@site/static/img/undraw_docusaurus_tree.svg").default,
+    Svg: TreeSvg,
     description: (
       <>
         Generative AI can enhance focus by automating repetitive tasks, freeing
@@ -31,7 +34,7 @@ const FeatureList: FeatureItem[] = [
   },
   {
     title: "Powered by AI",
-    Svg: require("@site/static/img/undraw_docusaurus_react.svg").default,
+    Svg: ReactSvg,
     description: (
       <>
         Generative AI tools possess remarkable power and flexibility. Their
