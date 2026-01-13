@@ -4,5 +4,15 @@
 
   // Spelling
   "cSpell.allowCompoundWords": true,
-  "cSpell.words": ["Aristov", "Kodi", "Sakura", "xcopy", "yoururl"]
+  "cSpell.words": ["Aristov", "Kodi", "nikoari", "Sakura", "xcopy", "yoururl"],
+
+  // Terminal - PowerShell launching CMD for Copilot compatibility
+  "terminal.integrated.profiles.windows": {
+    "Kodi": {
+      "source": "PowerShell",
+      "args": ["-NoExit", "-Command", "cmd"],
+      "overrideName": true
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Kodi"
 }
