@@ -5,7 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 const config: Config = {
   title: "Metro Evolved",
   tagline: "AI Solutions at your fingertips",
-  favicon: "img/favicon.ico",
+
+  // Favicon shows up in Browser Tabs, not on actual page
+  favicon: "img/metro-evolved-logo-32.png",
 
   // Set the production url of your site here
   url: "https://metroevolved.com",
@@ -72,7 +74,7 @@ const config: Config = {
     navbar: {
       // Top-Left
       logo: {
-        src: "img/logo.svg",
+        src: "img/metro-evolved-logo.svg",
         alt: "Metro Evolved Site Logo",
       },
 
