@@ -14,7 +14,7 @@
     "write-translations": "docusaurus write-translations",
     "write-heading-ids": "docusaurus write-heading-ids",
     "lint": "tsc",
-    "update": "yarn up && yarn dlx update-browserslist-db@latest"
+    "update": "yarn up * && yarn dlx update-browserslist-db@latest"
   },
   "dependencies": {
     "@docusaurus/core": "^3.9.2",
