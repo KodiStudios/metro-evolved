@@ -4,6 +4,14 @@ title: Foreach
 
 # TypeScript Foreach Loop
 
+# Tldr
+
+```TypeScript
+for (item of collection)
+{
+}
+```
+
 In TypeScript, there are two foreach loop types, `for..of` and `for...in`.
 
 `for...of` is a standard foreach loop:
