@@ -112,10 +112,6 @@ const config: Config = {
               label: "Empower",
               to: "/docs/category/docusaurus",
             },
-            {
-              label: "Collections",
-              to: "/docs/category/windows-terminal-app",
-            },
           ],
         },
 
@@ -126,10 +122,6 @@ const config: Config = {
             {
               label: "Instagram",
               href: "https://instagram.com/nikoaristov",
-            },
-            {
-              label: "X",
-              href: "https://twitter.com/kodistudios",
             },
           ],
         },
