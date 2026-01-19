@@ -123,10 +123,6 @@ const config: Config = {
               label: "Instagram",
               href: "https://instagram.com/nikoaristov",
             },
-            {
-              label: "X",
-              href: "https://twitter.com/kodistudios",
-            },
           ],
         },
 
