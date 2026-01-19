@@ -22,27 +22,6 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
   },
-  {
-    title: "Focus on What Matters",
-    Svg: TreeSvg,
-    description: (
-      <>
-        Generative AI can enhance focus by automating repetitive tasks, freeing
-        up mental bandwidth for more creative and critical thinking
-      </>
-    ),
-  },
-  {
-    title: "Powered by AI",
-    Svg: ReactSvg,
-    description: (
-      <>
-        Generative AI tools possess remarkable power and flexibility. Their
-        ability to learn and evolve makes them indispensable for innovation and
-        problem-solving
-      </>
-    ),
-  },
 ];
 
 function Feature({ title, Svg, description }: FeatureItem) {

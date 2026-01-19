@@ -112,10 +112,6 @@ const config: Config = {
               label: "Empower",
               to: "/docs/category/docusaurus",
             },
-            {
-              label: "Collections",
-              to: "/docs/category/windows-terminal-app",
-            },
           ],
         },
 
