@@ -15,7 +15,7 @@
     "write-heading-ids": "docusaurus write-heading-ids",
     "lint": "tsc",
     "//update": "yarn dlx update-browserslist-db updates the caniuse-lite dependency",
-    "update": "yarn up \"@docusaurus/*@latest\" \"@mdx-js/react@latest\" prism-react-renderer@latest typescript@latest @types/react @types/react-dom && yarn dlx update-browserslist-db@latest",
+    "update": "yarn up \"@docusaurus/*@latest\" \"@mdx-js/react@latest\" prism-react-renderer@latest typescript@latest \"@types/react@^18\" \"@types/react-dom@^18\" && yarn dlx update-browserslist-db@latest",
     "clean": "git clean -xdf ."
   },
   "//dependencies": "react must stay at v18 for Docusaurus 3 compatibility",
@@ -33,8 +33,8 @@
     "@docusaurus/tsconfig": "^3.9.2",
     "@docusaurus/types": "^3.9.2",
     "@types/mdast": "^4.0.4",
-    "@types/react": "^18.3.27",
-    "@types/react-dom": "^19.2.3",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
     "typescript": "^5.9.3"
   },
   "browserslist": {
@@ -54,7 +54,8 @@
   },
   "//resolutions": "Force single @types/react version to fix type conflicts with @docusaurus/types",
   "resolutions": {
-    "@types/react": "^18.3.12"
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7"
   },
   "packageManager": "yarn@4.12.0"
 }
