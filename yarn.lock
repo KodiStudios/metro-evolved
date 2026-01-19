@@ -5277,7 +5277,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^18.3.12":
+"@types/react@npm:^18.3.27":
   version: 18.3.27
   resolution: "@types/react@npm:18.3.27"
   dependencies:
@@ -10212,8 +10212,8 @@ __metadata:
     "@docusaurus/types": "npm:^3.9.2"
     "@mdx-js/react": "npm:^3.1.1"
     "@types/mdast": "npm:^4.0.4"
-    "@types/react": "npm:^18.3.12"
-    "@types/react-dom": "npm:^18.3.7"
+    "@types/react": "npm:^18"
+    "@types/react-dom": "npm:^18"
     clsx: "npm:^2.1.1"
     prism-react-renderer: "npm:^2.4.1"
     react: "npm:^18.3.1"
