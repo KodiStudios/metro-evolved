@@ -18,11 +18,6 @@ const config: Config = {
 
   trailingSlash: false,
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  //organizationName: "KodiStudios", // Usually your GitHub org/user name.
-  //projectName: "metro-evolved", // Usually your repo name.
-
   onBrokenLinks: "throw",
 
   // Even if you don't use internationalization, you can use this field to set
@@ -84,6 +79,7 @@ const config: Config = {
       items: [
         // Top-Left Links
         // Wiki
+        // Content is organized by Tree Structure
         {
           label: "Empower",
           type: "docSidebar",
@@ -91,14 +87,8 @@ const config: Config = {
           position: "left",
         },
 
-        {
-          label: "Collection",
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-        },
-
         // Blog
+        // Content is organized by Date
         { to: "/blog", label: "Blog", position: "left" },
 
         // Top-Right Link
