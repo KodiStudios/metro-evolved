@@ -36,7 +36,7 @@ Select Branch: `gh-pages`
 Click Save
 
 Go to your Url provider and configure DNS to point to GitHub:  
-[DNS Wiki](DNS.md)
+[DNS Wiki](../docu-site/DNS.md)
 
 Then, in Repository  
 Settings > Pages  
