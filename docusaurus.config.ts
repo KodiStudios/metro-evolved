@@ -48,7 +48,7 @@ const config: Config = {
 
         // Blog
         blog: {
-          showReadingTime: true,
+          showReadingTime: false,
 
           // Adds "Edit This Page" links
           editUrl: "https://github.com/KodiStudios/metro-evolved/tree/main",
