@@ -21,57 +21,48 @@ Now you have a directory `your-cool-site` locally.
 
 ## Create New Docusaurus Folder
 
-Let's leave `your-cool-site` directory as is, and create completely separate new directory for Docusaurus `docu-origin`. This new `docu-origin` folder will be sibling of `your-cool-site` folder.
-
-On local machine, create new Docusaurus project directory `docu-origin`:  
-`npx create-docusaurus@latest docu-origin classic --typescript`
-
-This will create a new directory called `docu-origin`. So now you have 2 directories next to each other `your-cool-site` and `docu-origin`.
-
-Verify your local Docusaurus site by running:
+On local machine, create new Docusaurus project inside your repo:
+`npx create-docusaurus@latest your-cool-site classic --typescript`
 
 ```Cmd
-cd docu-origin
+cd your-cool-site
 npm start
 ```
 
-This will start sample Server, and you should see a basic Docusaurus site is running in your browser.
+This will start sample Local Web Server, and you should see a basic Docusaurus site is running in your browser.
 
-After verification, stop your Server by pressing:  
+After verification, stop your Local Web Server by pressing:  
 `Ctrl + C`
 
-## Copy Contents from Docusaurus directory into GitHub directory
-
-Copy Contents from Docusaurus directory into your project Git directory with Windows Explorer, or with simple cmd command:  
-`xcopy /s docu-origin your-cool-site`
-
-`/s` means recursive
-
-## Switch from Npm to Yarn
+## Switch from Npm to Yarn v4
 
 Yarn is required by Docusaurus compiler and by GitHub Actions in future steps.
 
 Navigate into your site directory:  
 `cd your-cool-site`
 
-Install `yarn` globally:  
-`npm install -g yarn`
+Enable Yarn V4:  
+```Cmd
+corepack enable
+yarn set version stable
+```
 
-Delete `node-modules` folder.  
-Delete `package-lock.json` Npm Lock file.
+This should add entry into your `package.json`:  
+```Json
+  "packageManager": "yarn@4.12.0"
+```
 
-## Switch from Npm to Yarn
+Add into `.gitignore` the following entries:
+```Txt
+.yarn/*
+.pnp.*
+```
 
-Yarn is required by Docusaurus compiler and by GitHub Actions in future steps.
+Delete `node-modules` folder  
+Yarn will use .yarn foloder.
 
-Navigate into your site directory:  
-`cd your-cool-site`
-
-Install `yarn` globally:  
-`npm install -g yarn`
-
-Delete `node-modules` folder.  
-Delete `package-lock.json` Npm Lock file.
+Delete `package-lock.json` Npm Lock file,
+Yarn will use `yarn.lock` file.
 
 Create new Yarn Lock file:
 `yarn install`
@@ -84,7 +75,7 @@ Verify correctness of your local Docusaurus site, in `your-cool-site` directory:
 yarn start
 ```
 
-This will start sample Server, and you should see a basic Docusaurus site is running in your browser, just like in previous section, only now using Yarn instead of Npm.
+This will start sample Server, and you should see a basic Docusaurus site is running in your browser, just like in previous section, only now using Yarn v4 instead of Npm.
 
 After verification, stop your Server by pressing:  
 `Ctrl + C`
