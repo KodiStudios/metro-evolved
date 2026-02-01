@@ -4,7 +4,7 @@ title: Configure Custom Url
 
 # Configure Custom Url Using Go Daddy
 
-## Go Daddy DNS Settings
+## GoDaddy DNS Settings
 
 | Type  | Key             | Value                                |
 | ----- | --------------- | ------------------------------------ |
@@ -15,17 +15,25 @@ title: Configure Custom Url
 
 ## GitHub Pages
 
-In Settings > Pages
-Add Custom Domain Url
+In GitHub your-cool-site Project:  
+**Settings** > **Pages**  
+Add Custom Domain Url  
+No need for "https" or "www" prefixes, just:  
+`yoururl.com`
 
 ## Docusaurus Config
 
-url: `https://yoururl.com`
-baseUrl: `/`
+Modify the following entries:
+```TypeScript
+url: `https://yoururl.com`  
+baseUrl: `/`  
+```
 
-Comment out:  
-organizationName:
-projectName:
+Comment out the following entries:  
+```TypeScript
+// organizationName:
+// projectName:
+```
 
 ## Add CName file
 
